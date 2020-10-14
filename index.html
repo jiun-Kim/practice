@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Roulette</h1>
+      <h2 class="placeBet">Place your bet</h2>
+      <h2 class="winningNumber"></h2>
+      
+    </header>
+
+    
+    <div class="numbers">
+      <div class="zero">
+        <button onclick="init('0')">0</button>
+      </div>
+      
+      <div class="small">
+        <div class="small-column">
+          <button onclick="init('1')">1</button>
+          <button onclick="init('2')">2</button>
+          <button onclick="init('3')">3</button>
+        </div>
+        <div class="small-column">
+          <button onclick="init('4')">4</button>
+          <button onclick="init('5')">5</button>
+          <button onclick="init('6')">6</button>
+        </div>
+        <div class="small-column">
+          <button onclick="init('7')">7</button>
+          <button onclick="init('8')">8</button>
+          <button onclick="init('9')">9</button>
+        </div>
+        <div class="small-column">
+          <button onclick="init('10')">10</button>
+          <button onclick="init('11')">11</button>
+          <button onclick="init('12')">12</button>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="middle-column">
+          <button onclick="init('13')">13</button>
+          <button onclick="init('14')">14</button>
+          <button onclick="init('15')">15</button>
+        </div>
+        <div class="middle-column">
+          <button onclick="init('16')">16</button>
+          <button onclick="init('17')">17</button>
+          <button onclick="init('18')">18</button>
+        </div>
+        <div class="middle-column">
+          <button onclick="init('19')">19</button>
+          <button onclick="init('20')">20</button>
+          <button onclick="init('21')">21</button>
+        </div>
+        <div class="middle-column">
+          <button onclick="init('22')">22</button>
+          <button onclick="init('23')">23</button>
+          <button onclick="init('24')">24</button>
+        </div>
+      </div>
+      <div class="large">
+        <div class="large-column">
+          <button onclick="init('25')">25</button>
+          <button onclick="init('26')">26</button>
+          <button onclick="init('27')">27</button>
+        </div>
+        <div class="large-column">
+          <button onclick="init('28')">28</button>
+          <button onclick="init('29')">29</button>
+          <button onclick="init('30')">30</button>
+        </div>
+        <div class="large-column">
+          <button onclick="init('31')">31</button>
+          <button onclick="init('32')">32</button>
+          <button onclick="init('33')">33</button>
+        </div>
+        <div class="large-column">
+          <button onclick="init('34')">34</button>
+          <button onclick="init('35')">35</button>
+          <button onclick="init('36')">36</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="div1">
+      <span class="yourNumber">Your Number is</span>
+    </div>
+    <div class="div2">
+      
+    </div>
+    <div class="div3">
+      <span class="resultSpan"></span>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
